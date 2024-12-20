@@ -1,0 +1,523 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Arial, sans-serif !important;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.maincontainer{
+position: relative;
+/* background-color: #62d529; */
+height: 100vh;
+width: 100vw;
+overflow: hidden !important;
+
+}
+.imgcontainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: transparent;
+  object-fit: cover;
+  
+    max-width: 100%; /* Ensures the image fits within the width of its container */
+    max-height: 100vh; /* Ensures the image doesn't exceed the height of the viewport */
+ 
+  
+
+  /* background: linear-gradient(to top, rgba(203, 184, 184, 0.8) 0%, rgba(201, 184, 184, 0) 60%, rgba(207, 187, 187, 0.8) 100%); */
+}
+.boxcontainer{
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #414141;
+  opacity: 50%; */
+  background-image:linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.8) 100%)  ;
+  /* background :linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)" */
+}
+.headersec{
+  position:absolute;
+
+  /* background-color: #fff; */
+  top:  0%;
+  height: 30%;
+ display: flex;
+  width: 100%;
+  flex-direction: row;
+  opacity: transparent;
+  margin-right: 10%;
+  justify-content: center
+  ;
+  align-items: center;
+  /* padding: 20px; */
+  
+  /* padding-right: 40%; */
+  /* margin-right: 20%;   */
+}
+.logosec{
+  opacity: transparent;
+  position: relative;
+  display: flex;
+  /* background-color: #ba8888; */
+  width: 50%;
+  height:100%;
+/* justify-content: center; */
+/* align-self:center; */
+top: -20px;
+left: 70px ;
+bottom: 100px;
+ 
+} 
+
+
+.netflixicon {
+  image-rendering: auto;
+  height: 120px !important;
+  width: 280px !important;
+ 
+}
+
+
+
+.buttonsec {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Aligns the button section to the left */
+  width: 50%; /* Adjust width to fit your design */
+  height: 100%;
+  position: relative;
+  opacity: transparent;
+    /* Added for visibility, adjust as needed */
+gap: 15px;
+ margin-top: -90px;
+ margin-right: 150px;
+}
+
+.logoname{
+  font-size: 3em;
+margin-left: 20%;
+  color: rgba(255, 0, 0, 0.723);
+}
+ /* here it strats */
+ /* here it strats */
+ /* here it strats */
+ /* here it strats */
+
+ .langbtn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgb(172, 169, 169);
+  box-sizing: border-box;
+  height: 24px;
+  width: 102px;
+  border-radius: 3px;
+  background-color: transparent; /* Make the background transparent */
+  font-size: 14px;
+}
+
+.lang-icon {
+  height: 12px;  /* Reduced the height */
+  width: 12px;   /* Reduced the width */
+  margin-right: 5px;
+}
+
+.langbtn select {
+  border: none; /* Remove the border */
+  background-color: transparent; /* Make the background transparent */
+  color: #fff; /* Set text color to white */
+  padding: 0 25px 0 5px;/* Add padding as needed */
+  appearance: none; /* Remove default styling */
+  font-size: 0.9em; /* Adjust font size if needed */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Optional: Style the dropdown arrow */
+.langbtn::after {
+  content: '▼'; /* Or use an image/icon for the arrow */
+  position: absolute;
+  right: 10px; /* Adjust position as needed */
+  color: 
+  #f5f5f5; /* Arrow color */
+  font-size: 7px; /* Adjust size */
+}
+
+
+
+/* here it ends */
+/* here it ends */
+/* here it ends */
+/* here it ends */
+/* here it ends */
+
+
+
+
+
+
+.langsymb{
+  height:16px ;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+ 
+
+.signbtn {
+  height: -26px;
+ width: -50px;
+ 
+}
+
+.signinbtn {
+  /* padding: 10px 20px; */
+  /* border: none; */
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  height: 24px;
+  width: 60px ;
+  border: 1px solid #e50914;
+  
+  border-radius: 3px;
+  font-size: 12px;  
+  display: flex;
+ 
+justify-content: center;
+ align-items: center;
+  
+}
+.maincontent1{
+position: relative;
+opacity: transparent;
+top: -60%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.85rem;
+  /* font-size: 3rem; */
+}
+
+.headline{
+  opacity: transparent;
+width: 60%;
+}
+.headpara1{
+  color: #f5f5f5;
+   font-weight:730;
+   font-size: 2.5rem;
+}  
+.head2{
+color: #f5ffd2;
+/* size: 1.125rem;/ */
+font-size: 1.2rem;
+}
+.head_cont{
+ color: #f5f5f5;
+ font-size: 1.25rem;
+ font-weight: 400;
+}
+/* .head3{
+/* yet to be added */
+
+.headpara3{
+  color: #f5f5f5;
+}
+
+
+
+.getstart{
+  /* background-color: #dea3a3; */
+  opacity: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  height: 52px;
+  width: 38%;
+
+}
+
+input.email_input{
+  margin-top: 1px;
+  position: relative;
+  height: 80%;
+  width: 60%;
+  border: 0.1px solid rgb(148, 148, 148);
+  border-radius: 3px;
+  padding-left: 10px; 
+  background-color: transparent;
+  z-index: 1;
+  font-style: normal;
+
+color: #f5f5f5;}
+
+.getstartbtn{
+  color: #f5f5f5;
+  background-color:#e50914;
+  border: 1px solid #e50914;
+  text-align: center ;
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+justify-content: center;
+align-items:center;
+border-radius: 3px;
+height: 2.65rem;
+width:33% ;
+}
+
+.maincontent_2{
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  width: 100vw;
+  height: 85vh;
+color: rgb(255, 255, 255);
+overflow: hidden !important;
+margin-top: 6px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* align-items: center; */
+background-color: #000000
+}
+/* .demicont{
+ 
+  margin: 100%;
+} */
+
+.contentcont{
+  background-color: #000000;
+  margin-top: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.leftcont{
+  height: 70%;
+  width: 40%;
+  background-color: transparent;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  background-color: #000000;
+  text-align: left;
+}
+.headstat{
+ font-size: 2.5rem;
+padding-right: 145px;
+}
+
+.sidestat{
+  font-size: 1.2rem;
+font-weight: 400;
+}
+.rightcont{
+  width: 40%;
+  height: 70%;
+  margin-top: 4.5%;
+  position: relative;
+  /* margin-top: 7px; */
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color: transparent;
+  overflow: hidden;
+  
+}
+.TVCONT{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+ .TVimg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+
+.vdoTV{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 47.8%;
+  left: 49.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73.1%;
+
+}
+
+.maincont3{
+  width: 100vw;
+  height: 85vh;
+  background-color: rgb(35, 35, 35);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding */
+ 
+}
+
+.contcont3{
+  height: 80vh;
+  width: 80vw;
+  background-color: #000000;
+  padding-top: -5px;
+  margin-top: -12px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* column-gap: 5px; */
+}
+.Lcont{
+  width:50%;
+  /* height: 80%; */
+}
+.Rcont{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 640 480 */
+.imgcont3{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+overflow: hidden;
+padding-left:40px ;
+padding-top: 9%;
+margin-left: 18%;
+}
+
+.phoneimg{
+  height: 350px;
+  width: 460px;
+}
+.material{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ overflow: hidden;
+ /* padding-left:20px ; */
+ margin-right: 18%;
+
+ /* padding-top: 9%; */
+ background-color: #000000;
+ }
+ .main3h{
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255); }
+ .sub3h{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+font-weight: 400;
+}
+
+
+.maincont4{
+  width: 100vw;
+  height: 85vh;
+  background-color: rgb(35, 35, 35);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* padding-top: -10px;
+  margin-top: -5px; */
+  background-color: #000000;
+  /* margin: 0%; */
+  margin-top: -10px;
+ 
+}
+.contcont4{
+  height: 80vh;
+  width: 80vw;
+  background-color: #000000;
+  padding-top: -15px;
+  margin-top: -15px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* column-gap: 5px; */
+}
+
+.Lcont4{
+  width:50%;
+  /* height: 80%; */
+}
+.Rcont4{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcont4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ overflow: hidden;
+ /* /* padding-left:40px ; */
+ padding-top: 9%;
+ /* margin-left: 18%;   */
+ margin-right: 18%;
+ }
+ .macimg{
+  height: 350px;
+  width: 460px;
+}
+.material4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ overflow: hidden;
+ /* padding-left:20px ; */
+ margin-left: 16%;
+ text-align: left;
+ row-gap: 10px;
+display: flex;
+flex-direction: column;
+margin-left: 20%;
+ padding-top: 22%;
+ background-color: #000000;
+ }
+ .main4h{
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255); 
+padding-left: 20px;}
+ .sub4h{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+font-weight: 400;
+}
